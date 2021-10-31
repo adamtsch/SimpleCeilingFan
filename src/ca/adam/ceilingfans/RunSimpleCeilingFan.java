@@ -19,6 +19,7 @@ public class RunSimpleCeilingFan {
 		
 		boolean continueInput = true;
 		
+		printWelcome();
 		printInstructions();
 		
 		while (continueInput) {
@@ -95,6 +96,10 @@ public class RunSimpleCeilingFan {
 		}
 	}
 
+	public static void printWelcome() {
+		System.out.println(" ---- SIMPLE CEILING FAN ----\n\n");
+	}
+	
 	public static void printInstructions() {
 		System.out.println("INSTRUCTIONS:\n");
 		System.out.println("Welcome to your new Ceiling Fan! "
@@ -110,14 +115,14 @@ public class RunSimpleCeilingFan {
 		System.out.println("(1 for Cord One to increase speed)\n"
 				+ "(2 for Cord Two to change directions)\n"
 				+ "(3 to display current Fan Status)\n"
-				+ "(4 to print instructions)\n"
-				+ "(0 to exit the SimpleCeilingFan(tm) interface)\n");
+				+ "(4 to Print Instructions)\n"
+				+ "(0 to Exit the SimpleCeilingFan(tm) interface)\n");
 		System.out.print("ENTER INPUT: ");
 		
 	}
 	
 	public static void printExitMessage() {
-		System.out.println("Thank you for Staying Cool with your SimpleCeiling Fan.");
+		System.out.println("Thank you for Staying Cool with your Simple Ceiling Fan.\n\n");
 	}
 	
 	private static void printDivider() {
