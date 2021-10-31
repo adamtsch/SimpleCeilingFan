@@ -116,7 +116,9 @@ public class RunSimpleCeilingFan {
 				+ "(2 for Cord Two to change directions)\n"
 				+ "(3 to display current Fan Status)\n"
 				+ "(4 to Print Instructions)\n"
-				+ "(0 to Exit the SimpleCeilingFan(tm) interface)\n");
+				+ "(0 to Exit the SimpleCeilingFan(tm) interface)\n\n"
+				+ "Multiple inputs can be seperated by a space (i.e. 1 1 2 1 1)\n\n");
+		
 		System.out.print("ENTER INPUT: ");
 		
 	}
