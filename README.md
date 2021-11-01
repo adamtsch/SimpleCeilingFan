@@ -36,7 +36,7 @@ Ensure you are running Java 11 or later
 Start the Application
 
 ```bash
-  java -jar SimpleCeilingFan.java
+  java -jar SimpleCeilingFan.jar
 ```
 
 
