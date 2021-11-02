@@ -30,7 +30,7 @@ Go to the project directory
 Ensure you are running Java 11 or later
 
 ```bash
-  java -v
+  java -version
 ```
 
 Start the Application
