@@ -15,11 +15,19 @@ The Ceiling Fan has 2 pull cords:
 
 ## Run Locally
 
-Clone the project
+Clone the project (HTTP)
 
 ```bash
   git clone https://github.com/adamtsch/SimpleCeilingFan.git
 ```
+
+OR (SSH)
+
+```bash
+ git clone git@github.com:adamtsch/SimpleCeilingFan.git
+```
+
+
 
 Go to the project directory
 
